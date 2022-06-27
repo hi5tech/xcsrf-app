@@ -1,0 +1,11 @@
+<!-- a css-popup window to center of viewport -->
+<!--
+	To discuss automated access to hi5tech data please contact info@hi5tech.com.
+-->
+<div id="{{csrf-auth-failed-popup}}" style="top:0;left:0;width:100%;height:100vh;position:fixed;background:#fff;opacity:.9;display:flex">
+	<div style="margin:auto;text-align:center;padding:10px;border:3px solid #f1381c">
+		<p>CSRF authentication failed. Your form session may have expired.</p>
+		<button onclick="hi5embAgent.backForms();window.location.reload();">Reload</button>
+		<button onclick="document.getElementById('{{csrf-auth-failed-popup}}').remove();">Cancel</button>
+	</div>
+</div>

@@ -1,0 +1,48 @@
+ dump headers: Array
+(
+    [Host] => lamp6.hi5tech.com
+    [Connection] => keep-alive
+    [Content-Length] => 0
+    [Pragma] => no-cache
+    [Cache-Control] => no-cache
+    [csrf_fetch_http2_flag] => true
+    [ajax-call-method] => fetch
+    [testing-csrf-auth-2nd] => 222222221efe975d7d
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36
+    [x_csrf_auth_token] => 33aaaa5cc0cddb296a84028a8bc94633
+    [Accept] => */*
+    [Origin] => http://lamp6.hi5tech.com
+    [Referer] => http://lamp6.hi5tech.com/git_hi5_xcsrf/testing_scripts/test_ajax_form_submit.php?
+    [Accept-Encoding] => gzip, deflate
+    [Accept-Language] => en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7
+    [Cookie] => h5-cart-hash=71fc83d1cec5a37562493fc8bfee40d9; PHPSESSID=2l20hhbjdlvrno7r6l0fphrb19
+)
+
+
+ authResult: Array
+(
+    [Origin_incoming] => http://lamp6.hi5tech.com
+    [Origin_target] => lamp6.hi5tech.com
+    [Referer] => http://lamp6.hi5tech.com/git_hi5_xcsrf/testing_scripts/test_ajax_form_submit.php?
+    [SERVER_NAME] => lamp6.hi5tech.com
+    [calling_method] => ajax_fetch
+    [sess-data] => Array
+        (
+            [time] => 1656255470
+            [secret] => ef7435d487fa9580
+            [algo] => md5
+            [sessid] => 2l20hhbjdlvrno7r6l0fphrb19
+            [ip] => 192.168.1.164
+            [token] => 33aaaa5cc0cddb296a84028a8bc94633
+        )
+
+    [error_message] => 
+    [result] => authenticated
+    [request_method] => POST
+    [target-script] => /var/www/html/git_hi5_xcsrf/testing_scripts/test_ajax_form_submit.php
+    [token_in_request] => 33aaaa5cc0cddb296a84028a8bc94633
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36
+)
+
+
+ public xcsrd results: {"HTTP_AJAX_CALL_METHOD":"fetch","calling_method":"ajax_fetch","request_method":"POST","error_message":"","csrf-auth-status":"authenticated"}

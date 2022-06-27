@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang=en>
+ <head>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <meta name="title" content="403 Forbidden">
+  <!--tell search engines not to cache the page, nor to use Open Directory-->
+  <meta name="ROBOTS" content="NOARCHIVE,NOODP">
+  <title>403 Forbidden</title>
+  	<style>
+		html, body {
+		  overflow: hidden;
+		}
+		/* horizontally center an element */
+		.center {
+		  /* horizontally center a block element */
+		  margin: auto;
+		  /*center the text inside an element*/
+		  text-align: center;
+		  width:50%;
+		  padding: 10px;
+		  border: 3px solid #f29107;
+		}
+		/* 
+		base container to make the div center vertically and horizontally
+		if use height:100% instead of height:100vh then html{} needs to set height:100%
+		*/
+		#viewport {
+		  width: 100%;
+		  height:100vh;
+		  left: 0;
+		  top: 0;
+		  display: flex;
+		  align-items: center;
+		}
+		/* base container to make the div center vertically and horizontally */
+		.base { 
+		  width: 100%;
+		  height:100vh;
+		  left: 0;
+		  top: 0;
+		  display: flex;
+		  display: -webkit-flex;
+		  -webkit-align-items: center;
+		  align-items: center;
+		  -webkit-justify-content: center;
+		  justify-content: center;
+		}
+		#wrapper {
+		  padding: 30px;
+		  background: #000;
+		  color: #fff;
+		}
+	</style>
+  </head>
+  <body>
+	<!--
+		To discuss automated access to hi5tech data please contact info@hi5tech.com.
+	-->
+	<div class="base">
+		<div class="center">
+			<p>CSRF authentication failed. Your form session might have expired.</p>
+			<form method="GET" action="">
+			  <input type="submit" value="Try again">
+			</form>
+		</div>
+	</div>
+  </body>
+</html> 
