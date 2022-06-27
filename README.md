@@ -1,4 +1,4 @@
-A simple, zero-management CSRF authentication PHP framework that can be integrated with any web application. 
+A simple, zero-management CSRF authentication PHP framework that can be integrated with any web applications. 
 It features cookieless solution to achieve GDPR compliance, and provides CSRF authentication out of the box.
 
 This tiny project was implemented and adapted from a research paper "A server- and browser-transparent CSRF defense 
@@ -8,16 +8,17 @@ Other reference also includes "Securing Frame Communication in Browsers" by A. B
 
 CSRF protection secures web applications for:
 
-	* HTML forms with POST
-	* Dynamically generated forms
-	* JavaScript submit with HTMLFormElement.submit() method or HTML submit with HTMLFormElement onsubmit event
-	* Ajax Requests with both XHR and Fetch
+	- HTML forms with POST
+	- Dynamically generated forms
+	- JavaScript submit with HTMLFormElement.submit() method or HTML submit with HTMLFormElement onsubmit event
+	- Ajax Requests with both XHR and Fetch
 
-***************
+
+
 Usage example:
-***************
 
 On the top of your php file, include the library and call the initiating function:
+
 	<?php
 		/** enable xcsrf authentication block **/
 		include_once "../xcsrf_proxy.php";
